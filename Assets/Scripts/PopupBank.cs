@@ -55,7 +55,8 @@ public class PopupBank : MonoBehaviour
     {
         deposit.SetActive(false);
         withdraw.SetActive(false);
-        popupBank.SetActive(true);
+        ATM.SetActive(true);
+
         koreaOK.SetActive(false);
         givemeMoney.SetActive(false);
         gOGOUI.SetActive(false);
